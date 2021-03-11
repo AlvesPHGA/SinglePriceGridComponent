@@ -19,73 +19,8 @@ body{
     font-size: 1rem;
     font-family: 'Karla', sans-serif;
     font-weight: 400;
-    background-color: var(--light-gray);
 }
 
 a{
     text-decoration: none;
-}
-
-#main-single-price-grid{ border: 1px solid black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    margin: 100px auto;
-}
-
-#box-join-community{ border: 1px solid red;
-    background-color: var(--white);
-}
-
-#box-join-community header strong{
-    color: var(--cyan);
-    font-weight: 700;
-}
-
-#box-join-community strong{
-    color: var(--bright-yellow);
-    font-weight: 700;
-}
-
-#box-join-community p{
-    color: var(--grayish-blue);
-}
-
-#box-price-links{ border: 1px solid red;
-    color: var(--white);
-    width: 100%;
-}
-
-.box-price{
-    background: var(--cyan);
-}
-
-.box-price header, .link-header header{
-    font-weight: 700;
-}
-
-.box-price button{
-    border: 0;
-    background: var(--bright-yellow);
-    color: var(--white);
-    font-weight: 700;
-}
-
-.box-links{
-
-    background: var(--second-cyan);
-    display: flex;
-    flex-direction: column;
-}
-
-.link-site{
-    display: flex;
-    flex-direction: column;
-}
-
-.link-site a{
-    color: var(--white);
-    opacity: .8;
 }
