@@ -19,8 +19,95 @@ body{
     font-size: 1rem;
     font-family: 'Karla', sans-serif;
     font-weight: 400;
+    
 }
 
 a{
     text-decoration: none;
+}
+
+.boxOne-header header, .boxOne-header p, #boxTwo header{
+    font-weight: 700;
+}
+
+#body{
+    background-color: var(--light-gray);
+}
+
+#box-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#boxOne{
+    background-color: var(--white);
+}
+
+.boxOne-header header{
+    color: var(--cyan);
+    font-size: 1.2rem;
+}
+
+.boxOne-header p{
+    color: var(--bright-yellow);    
+}
+
+.boxOne-paragraph{
+    color: var(--grayish-blue);
+    font-size: .9rem;
+}
+
+#boxTwo{
+    background-color: var(--cyan);
+    color: var(--white);
+}
+
+#boxTwo button{
+    background-color: var(--bright-yellow);
+    color: var(--white);
+    border: none;
+}
+
+#boxTwo button:hover{
+    background-color: hsl(71, 91%, 49%);
+    transition-delay: .2s;
+}
+
+
+.boxTwo-price strong{
+    font-size: 1.5rem;
+}
+
+.boxTwo-price span{
+    opacity: .5;
+}
+
+
+
+#boxThree{
+    background-color: var(--second-cyan);
+    color: var(--white)
+}
+
+.boxThree-header{
+    font-size: 1.1rem;
+}
+
+.boxThree-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.boxThree-link a{
+    color: var(--white);
+    font-size: 0.8rem;
+    opacity: .8;
+}
+
+.boxThree-link a:hover{
+    text-decoration: underline;
 }

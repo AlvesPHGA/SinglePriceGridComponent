@@ -1,5 +1,85 @@
 @media (max-width: 600px){
+    #box-main{ 
+        width: 80vw;
+        margin: 20% auto;
+
+        border-radius: 5px;
+
+        box-shadow: 5px 10px 2em rgba(0, 0, 0, .2);
+    }
+
+    #boxOne{
+        width: 100%;
+        border-radius: 5px 5px 0 0;
+        padding: 30px 20px;
+
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .boxOne-header{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .boxOne-paragraph{
+        line-height: 1.5rem;        
+    }
+
+    #boxGrid{
+        width: 100%;
+    }
+
+    #boxTwo{
+        padding: 25px 20px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .boxTwo-price{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .price{
+        display: flex;
+        align-items: center;
+    }
+
+    .boxTwo-price strong{
+        margin-right: 10px;
+    }
+
+    #boxTwo button{
+        height: 50px;
+        font-weight: 700;
+        font-size: 1rem;
+        border-radius: 5px;
+
+        margin-top: 5px;
+
+        box-shadow: 5px 10px 2em rgba(0, 0, 0, .1);
+
+        cursor: pointer;
+    }
+
     
+
+    #boxThree{
+        border-radius: 0 0 5px 5px;
+        padding: 25px 20px 25px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .boxThree-link{
+        row-gap: 5px;
+    }
 }
 
 @media only screen and (min-width: 600px){
